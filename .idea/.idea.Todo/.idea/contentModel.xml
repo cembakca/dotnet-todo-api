@@ -9,8 +9,8 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AuthController.cs" t="Include" />
           <e p="TodoController.cs" t="Include" />
-          <e p="TokenController.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
           <e p="TodoResponseModel.cs" t="Include" />
