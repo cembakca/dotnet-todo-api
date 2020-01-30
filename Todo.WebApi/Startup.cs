@@ -65,8 +65,11 @@ namespace Todo.WebApi
 
             app.UseRouting();
 
+            app.UseAuthentication();
+            
             app.UseAuthorization();
-
+            
+            // app.UseMvc();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }

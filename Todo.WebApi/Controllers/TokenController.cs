@@ -62,8 +62,12 @@ namespace Todo.WebApi.Controllers
                 return Ok(new TokenResponseModel
                 {
                     Token = new JwtSecurityTokenHandler().WriteToken(token),
-                    Email = user.Email,
-                    UserName = user.UserName
+                    User =  new UserResponseModel
+                    {
+                        Email = user.Email,
+                        UserName = user.UserName,
+                        Id = user.Id
+                    }
                 });
             }
 
