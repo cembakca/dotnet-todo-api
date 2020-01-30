@@ -10,10 +10,12 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="TodoController.cs" t="Include" />
+          <e p="TokenController.cs" t="Include" />
         </e>
         <e p="Dtos" t="Include">
           <e p="TodoResponseModel.cs" t="Include" />
           <e p="TodoUserResponseModel.cs" t="Include" />
+          <e p="TokenResponseModel.cs" t="Include" />
           <e p="UserResponseModel.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
